@@ -58,13 +58,23 @@
     <form action="/submit" method="post">
         <fieldset>
             <legend><b>Let's connect</b></legend>
-            <label for="name">Name:</label>
+            <label for="name"><b>Name:</b></label>
             <input type="text" name="name" required><br>
-            <label for="email">Email:</label>
+            <label for="email"><b>Email:</b></label>
             <input type="email" name="email" required><br>
-            <label for="message">Message:</label>
+            <label for="message"><b>Message:</b></label>
             <textarea name="message"></textarea>
         </fieldset>
+        <label for="county"><b>County:</b></label>
+        <select name="county" id="county">
+            <option value="nairobi">Nairobi</option>
+            <option value="nakuru">Nakuru</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="thika">Thika</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="machakos">Machakos</option>
+            <option value="siaya">Siaya</option>   
+        </select>
     </form>
     <footer>
         <p>&copy; 2025 Britney. All rights reserved.</p>
